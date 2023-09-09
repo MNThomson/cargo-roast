@@ -1,6 +1,8 @@
 [package]
 name = "cargo-roast"
+description = "Built in cargo command to roast you on your compiler errors"
 version = "0.1.0"
 edition = "2021"
+license = "MIT"
 
 [dependencies]
