@@ -1,8 +1,14 @@
 [package]
 name = "cargo-roast"
 description = "Built in cargo command to roast you on your compiler errors"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
 license = "MIT"
 
 [dependencies]
+duct = "0.13.6"
+env_logger = "0.10.0"
+log = "0.4.19"
+reqwest = {version = "0.11.18", features = ["blocking", "native-tls", "gzip", "json"]}
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
