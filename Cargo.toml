@@ -1,9 +1,10 @@
 [package]
 name = "cargo-roast"
 description = "Built in cargo command to roast you on your compiler errors"
-version = "0.2.0"
+version = "0.2.1"
 edition = "2021"
 license = "MIT"
+homepage = "https://github.com/MNThomson/cargo-roast"
 
 [dependencies]
 duct = "0.13.6"
